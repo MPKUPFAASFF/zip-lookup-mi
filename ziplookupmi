@@ -87,11 +87,16 @@
 </head>
 <body>
 
-    <div class="zip-lookup-container">
+
+
+     <div class="zip-lookup-container">
         <h2>Find Your Nearest Branch</h2>
         <input type="text" id="zipcode" placeholder="Enter ZIP Code">
         <button type="button" onclick="findNearestPhone()">Find Your SPI Contact</button>
         <p id="result"></p>
+        <p style="font-size: 14px; color: #333; margin-top: 10px;">
+            Outside the U.S.? <a href="https://www.spi-co.com/Locations" target="_blank" style="color: #c20430; font-weight: 700;">View our locations</a>.
+        </p>
     </div>
 
     <script>
